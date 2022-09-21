@@ -1,16 +1,6 @@
 Source modeling
 ---------------
 
-Program
--------
-
-|              |          							|		    						|
-| :------      | :-----   							| :-----  							|
-| 12:00--12:30 | [Evoked to STC](stc) 	| Going from evoked to stc |
-| 12:30--13:00 | [Forward](forward)   				| Constructing the forward            	|
-| 13:00--13:30 | [Cov](cov)		    | Covariance computation
-
-
 Evoked to STC
 =============
 
