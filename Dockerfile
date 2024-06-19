@@ -20,22 +20,14 @@ USER $NB_UID
 
 
 RUN pip install --upgrade pip
-RUN npm i npm@latest -g
 
 # *********************As User ***************************
 USER $NB_UID
 
 
 RUN pip install --upgrade pip
-RUN npm i npm@latest -g
 
 # *********************Extensions ***************************
-
-# Install RISE extension
-RUN pip install RISE && \
-    jupyter nbextension install rise --py --sys-prefix &&\
-    jupyter nbextension enable rise --py --sys-prefix &&\
-    npm cache clean --force
 
 USER root
 
@@ -62,15 +54,12 @@ RUN pip install ipywidgets && \
     pip install pillow && \
     pip install scikit-learn && \
     pip install nibabel && \
-    pip install mne && \
-    pip install https://api.github.com/repos/autoreject/autoreject/zipball/master
-
-RUN git init . && \
-    git remote add origin https://github.com/jasmainak/mne-workshop-brown.git && \
-    git fetch origin gh-pages && \
-    git checkout gh-pages
+    pip install mne
 
 RUN ipython -c "import mne; print(mne.datasets.sample.data_path(verbose=False))"
+
+RUN git clone https://github.com/jasmainak/mne-workshop-mit.git && \
+    cd mne-workshop-mit
 
 # Add an x-server to the entrypoint. This is needed by Mayavi
 ENTRYPOINT ["tini", "-g", "--", "xvfb-run"]
