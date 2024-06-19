@@ -1,6 +1,6 @@
 # Practical information
 
-[![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasmainak/mne-binder/master?url-path=git-pull?repo=https://github.com/jasmainak/mne-workshop-mit
+[![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasmainak/mne-binder/master?url-path=git-pull?repo=https://github.com/jasmainak/mne-workshop-mit)
 
 ||   |
 |:------|:------|
