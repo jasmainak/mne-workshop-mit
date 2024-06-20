@@ -4,11 +4,9 @@
 
 ||   |
 |:------|:------|
-| **Where**      | Voytek Lab (at UCSD) |
-| **When**       | Thursday, Sep 22nd   |
-| 				 | Friday, Sep 23rd	    |
-|				 | 		                |
-| **Who**        | The workshop is aimed at MEG/EEG researchers getting started with analyzing data in MNE-Python.|
+| **Where**      | MIT Room 46-5165 |
+| **When**       | Tuesday, June 25th   |
+| **Who**        | The workshop is aimed at neuroscience researchers getting started with analyzing MEG/EEG data in MNE-Python.|
 | **Why**        | [MNE-Python](https://martinos.org/mne/stable/index.html) is an open source software package to analyze, visualize, and explore electro-/magnetoencephalography (M/EEG) data. The package is written in Python which has a growing scientific ecosystem (numpy, scipy, matplotlib, scikit-learn, pandas) and is popular as a clean and versatile language.|
 | **Instructor** | [Mainak Jas](http://jasmainak.github.io/) |
 
