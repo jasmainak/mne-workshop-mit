@@ -1,6 +1,6 @@
 # Practical information
 
-[![Launch binder](https://mybinder.org/v2/gh/jasmainak/mne-binder/master?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjasmainak%252Fmne-workshop-mit%26urlpath%3Dlab%252Ftree%252Fmne-workshop-mit%252Fraw_to_evoked.ipynb%26branch%3Dmaster)
+[![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasmainak/mne-binder/master?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjasmainak%252Fmne-workshop-mit%26urlpath%3Dlab%252Ftree%252Fmne-workshop-mit%252Fraw_to_evoked.ipynb%26branch%3Dmaster)
 
 ||   |
 |:------|:------|
