@@ -5,7 +5,7 @@
 ||   |
 |:------|:------|
 | **Where**      | MIT Room 46-5165 |
-| **When**       | Tuesday, June 25th   |
+| **When**       | Tuesday, June 25th (1:30 pm - 6 pm)  |
 | **Who**        | The workshop is aimed at neuroscience researchers getting started with analyzing MEG/EEG data in MNE-Python.|
 | **Why**        | [MNE-Python](https://martinos.org/mne/stable/index.html) is an open source software package to analyze, visualize, and explore electro-/magnetoencephalography (M/EEG) data. The package is written in Python which has a growing scientific ecosystem (numpy, scipy, matplotlib, scikit-learn, pandas) and is popular as a clean and versatile language.|
 | **Instructor** | [Mainak Jas](http://jasmainak.github.io/) |
@@ -22,7 +22,3 @@ and type:
     $ jupyter-notebook &
 
 in your terminal
-
-Here's a brief break-down of what is inside the notebooks:
-* [Preprocessing](preprocessing/readme.md)
-* [Source Modeling](evoked_to_stc/readme.md)
